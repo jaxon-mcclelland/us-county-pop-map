@@ -4,7 +4,6 @@ import pandas as pd
 
 # county pop data: https://data.census.gov/cedsci/table?q=population&t=Populations%20and%20People&g=0100000US.050000&y=2019&tid=ACSDT5Y2019.B01003&hidePreview=false
 
-#usStates = os.path.join('data', 'us_states.json')
 usCounties = os.path.join('data', 'counties.json')
 pop = os.path.join('data', 'county_pop.csv')
 pops = pd.read_csv(pop,encoding = "ISO-8859-1")
